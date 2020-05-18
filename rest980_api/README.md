@@ -4,6 +4,11 @@ Run the rest980 API on Hass.io locally
 
 ![Supports amd64 Architecture][amd64-shield] ![Supports armv7 Architecture][armv7-shield]
 
+&nbsp;
+<p align="center">
+    <img src="./logo.png" alt="Logo"/>
+</p>
+
 ## About
 
 [rest980][rest980] exposes [dorita980][dorita980] which is an Unofficial iRobot Roomba (i7/i7+, 980, 960, e5, 690, 675, etc) node.js SDK.
