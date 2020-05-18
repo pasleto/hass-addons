@@ -1,0 +1,32 @@
+{
+  "name": "Roomba rest980 API",
+  "version": "20200518",
+  "slug": "rest980_api",
+  "description": "Run Roomba rest980 API in Hass.io locally",
+  "arch": [
+    "amd64",
+    "armv7"
+  ],
+  "url": "https://github.com/pasleto/hass-addons/rest980",
+  "startup": "application",
+  "boot": "auto",
+  "legacy": true,
+  "ports": {
+    "3000/tcp": 3000
+  },
+  "map": [
+    "config:rw"
+  ],
+  "options": {
+    "BLID": "blid",
+    "PASSWORD": "password",
+    "ROBOT_IP": "robot_ip",
+    "FIRMWARE_VERSION": "2"
+  },
+  "schema": {
+    "BLID": "str",
+    "PASSWORD": "str",
+    "ROBOT_IP": "str",
+    "FIRMWARE_VERSION": "int"
+  }
+}
