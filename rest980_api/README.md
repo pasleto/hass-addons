@@ -6,7 +6,7 @@ Run the rest980 API on Hass.io locally
 
 &nbsp;
 <p align="center">
-    <img src="./logo.png" alt="Logo"/>
+    <img src="https://raw.githubusercontent.com/pasleto/hass-addons/master/rest980_api/logo.png" alt="Logo"/>
 </p>
 
 ## About
