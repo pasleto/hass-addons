@@ -9,12 +9,15 @@ pretty easy. Follow [the official instructions][third-party-addons] on the
 website of Home Assistant, and use the following URL:
 
 ```txt
-https://github.com/pasleto/hass-addons
+ https://github.com/pasleto/hass-addons
 ```
 
-## HA Add-ons
+# HA Add-ons
 
-### rest980_api - rest980 iRobot Roomba API
+## network_notepad - Database for your network data
+Provides application for memorizing you network clients informations
+
+## rest980_api - rest980 iRobot Roomba API
 Provides the rest980 Node modules for obtaining the data from your iRobot Roomba
 
 ## Support
