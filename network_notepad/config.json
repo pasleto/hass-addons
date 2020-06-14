@@ -1,22 +1,19 @@
 {
   "name": "Network Notepad",
-  "version": "20200614",
+  "version": "2020061402",
   "slug": "natwork_notepad",
   "description": "Network Notepad",
-  "arch": [
-    "amd64",
-    "armv7"
-  ],
+  "arch": [ "amd64", "armv7" ],
   "url": "https://github.com/pasleto/hass-addons/network_notepad",
   "startup": "application",
+  "ingress": true,
+  "panel_icon": "mdi:table-network",
   "boot": "auto",
   "legacy": true,
   "ports": {
     "3001/tcp": 3001
   },
-  "map": [
-    "config:rw"
-  ],
+  "map": [ "config:rw" ],
   "options": {
     "DATABASE_URL": "localhost",
     "DATABASE_PORT": 3306,

@@ -29,21 +29,21 @@ This add-on requires [MariaDB] addon to be configured on your HA instance and op
 MariaDB configuration:
 ```
     databases:
-      - <database>                          // default - network_notepad
+      - <database>                      // default - network_notepad
     logins:
-      - username: <username>                // default - network_notepad
-        password: <password>                // default - network_notepad
+      - username: <username>            // default - network_notepad
+        password: <password>            // default - network_notepad
     rights:
-      - username: <username>                // default - network_notepad
-        database: <database>                // default - network_notepad
+      - username: <username>            // default - network_notepad
+        database: <database>            // default - network_notepad
 ``` 
 Network Notepad Configuration:
 ```
-  DATABASE_URL: <host>,                     // default - localhost
-  DATABASE_PORT: <port>,                    // default - 3306
-  DATABASE_USER: <user>,                    // default - network_notepad
-  DATABASE_PASSWORD: <password>,            // default - network_notepad
-  DATABASE_NAME: <database>                 // default - network_notepad
+  DATABASE_URL: <hassio_ip>,            // default - localhost (need to be changed)
+  DATABASE_PORT: <port>,                // default - 3306
+  DATABASE_USER: <user>,                // default - network_notepad
+  DATABASE_PASSWORD: <password>,        // default - network_notepad
+  DATABASE_NAME: <database>             // default - network_notepad
 ```
 
 1. Set the required MariaDB addon and its configuration attributes.
