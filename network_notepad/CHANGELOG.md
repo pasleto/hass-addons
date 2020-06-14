@@ -20,3 +20,6 @@
 
 ### 2020061406
 - Backend and database models updated, frontend update - MAC Addresses supported now
+
+### 2020061407
+- Minor touches
