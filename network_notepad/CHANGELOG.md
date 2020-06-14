@@ -14,3 +14,6 @@
 
 ### 2020061404
 - App working as expected
+
+### 2020061405
+- Frontend updated

@@ -1,6 +1,6 @@
 {
   "name": "Network Notepad",
-  "version": "2020061404",
+  "version": "2020061405",
   "slug": "natwork_notepad",
   "description": "Network Notepad",
   "arch": [ "amd64", "armv7" ],

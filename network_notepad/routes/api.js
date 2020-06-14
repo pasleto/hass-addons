@@ -62,6 +62,23 @@ orm.connect(dbOpts, function (err, db) {
         });
       });
 
+      router.post('/vlans/edit', function (req, res) { // Edit network description by Network ID
+        Vlans.get(req.body.id, function (err, Network) {
+          if (err) {
+            res.status(500).send();
+            return;
+          }
+          Network.description = req.body.description;
+          Network.save(function (err) {
+            if (err) {
+              res.status(500).send();
+              return;
+            }
+            res.status(200).send();
+          });
+        });
+      });
+
       router.post('/vlans/create', function (req, res) { // Post to create new Vlan
         Vlans.create({
           name: req.body.name,
