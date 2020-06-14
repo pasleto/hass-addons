@@ -39,11 +39,11 @@ MariaDB configuration:
 ``` 
 Network Notepad Configuration:
 ```
-  DATABASE_URL: <hassio_ip>,            // default - hassio.local
-  DATABASE_PORT: <port>,                // default - 3306
-  DATABASE_USER: <user>,                // default - network_notepad
-  DATABASE_PASSWORD: <password>,        // default - network_notepad
-  DATABASE_NAME: <database>             // default - network_notepad
+    DATABASE_URL: <hassio_ip>,            // default - hassio.local
+    DATABASE_PORT: <port>,                // default - 3306
+    DATABASE_USER: <user>,                // default - network_notepad
+    DATABASE_PASSWORD: <password>,        // default - network_notepad
+    DATABASE_NAME: <database>             // default - network_notepad
 ```
 
 1. Set the required MariaDB addon and its configuration attributes.
