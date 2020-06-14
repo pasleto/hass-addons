@@ -23,3 +23,6 @@
 
 ### 2020061407
 - Minor touches
+
+### 2020061408
+- Updated frontend

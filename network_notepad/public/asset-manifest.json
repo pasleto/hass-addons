@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.dc11f892.chunk.css",
-    "main.js": "/static/js/main.4e53003d.chunk.js",
+    "main.js": "/static/js/main.70d2d35b.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.bcdb1e50.js",
     "static/css/2.a8e5e2cf.chunk.css": "/static/css/2.a8e5e2cf.chunk.css",
-    "static/js/2.a28bb481.chunk.js": "/static/js/2.a28bb481.chunk.js",
+    "static/js/2.f5b97222.chunk.js": "/static/js/2.f5b97222.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.29bca9748b9c2b21cd17b6e1444de6eb.js": "/precache-manifest.29bca9748b9c2b21cd17b6e1444de6eb.js",
+    "precache-manifest.24ab2b3056778d766ed5ef2794e860f8.js": "/precache-manifest.24ab2b3056778d766ed5ef2794e860f8.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.a28bb481.chunk.js.LICENSE.txt": "/static/js/2.a28bb481.chunk.js.LICENSE.txt",
+    "static/js/2.f5b97222.chunk.js.LICENSE.txt": "/static/js/2.f5b97222.chunk.js.LICENSE.txt",
     "static/media/font-awesome.less": "/static/media/font-awesome.15cb7faa.less",
     "static/media/index.css": "/static/media/roboto-latin-900italic.ebf6d164.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.bcdb1e50.js",
     "static/css/2.a8e5e2cf.chunk.css",
-    "static/js/2.a28bb481.chunk.js",
+    "static/js/2.f5b97222.chunk.js",
     "static/css/main.dc11f892.chunk.css",
-    "static/js/main.4e53003d.chunk.js"
+    "static/js/main.70d2d35b.chunk.js"
   ]
 }
