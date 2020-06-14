@@ -7,7 +7,7 @@
     "amd64",
     "armv7"
   ],
-  "url": "https://github.com/pasleto/hass-addons/rest980",
+  "url": "https://github.com/pasleto/hass-addons/tree/master/rest980",
   "startup": "application",
   "boot": "auto",
   "legacy": true,

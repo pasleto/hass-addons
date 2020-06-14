@@ -4,7 +4,7 @@
   "slug": "natwork_notepad",
   "description": "Network Notepad",
   "arch": [ "amd64", "armv7" ],
-  "url": "https://github.com/pasleto/hass-addons/network_notepad",
+  "url": "https://github.com/pasleto/hass-addons/tree/master/network_notepad",
   "startup": "application",
   "webui": "http://[HOST]:[PORT:3001]/",
   "boot": "auto",
