@@ -8,6 +8,7 @@
   "startup": "application",
   "webui": "http://[HOST]:[PORT:3001]/",
   "boot": "auto",
+  "legacy": true,
   "ports": {
     "3001/tcp": 3001
   },
