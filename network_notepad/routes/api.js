@@ -199,7 +199,8 @@ orm.connect(dbOpts, function (err, db) {
             comment: '',
             last_edited: new Date(),
             inside_net_id: (key + 1),
-            assigned_place: ''
+            assigned_place: '',
+            mac_address: ''
           }, function (err) {
             if (err) {
               res.status(500).send();
@@ -224,6 +225,7 @@ orm.connect(dbOpts, function (err, db) {
           IpAddr.comment = req.body.comment;
           IpAddr.last_edited = new Date();
           IpAddr.assigned_place = req.body.assignedPlace;
+          IpAddr.mac_address = req.body.macAddress;
           IpAddr.save(function (err) {
             if (err) {
               res.status(500).send();
@@ -246,6 +248,7 @@ orm.connect(dbOpts, function (err, db) {
           IpAddr.comment = '';
           IpAddr.last_edited = new Date();
           IpAddr.assigned_place = '';
+          IpAddr.mac_address = '';
           IpAddr.save(function (err) {
             if (err) {
               console.log(err);

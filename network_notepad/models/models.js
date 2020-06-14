@@ -49,7 +49,8 @@ module.exports = function (db, cb) {
     comment: { type: 'text', size: 100 },
     last_edited: { type: 'date', time: true },
     inside_net_id: { type: 'integer' },
-    assigned_place: { type: 'text', size: 20 }
+    assigned_place: { type: 'text', size: 20 },
+    mac_address: { type: 'text', size: 20 },
   }, {
     methods: {
       getID: function () {
@@ -78,6 +79,9 @@ module.exports = function (db, cb) {
       },
       getAssignedPlace: function () {
         return this.assigned_place;
+      },
+      getMacAddress: function () {
+        return this.mac_address;
       }
     }
   });
