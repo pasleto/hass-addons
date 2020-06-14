@@ -6,7 +6,7 @@ Run network notepad on your Home Assistant instance
 
 &nbsp;
 <p align="center">
-    <img src="./logo.png" alt="Logo"/>
+    <img src="https://raw.githubusercontent.com/pasleto/hass-addons/master/network_notepad/logo.png" alt="Logo"/>
 </p>
 
 ## About
