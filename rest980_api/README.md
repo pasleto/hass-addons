@@ -20,7 +20,7 @@ Follow these steps to get the add-on installed on your system:
 1. Navigate in your Home Assistant frontend to **Supervisor** -> **Add-on Store**.
 2. Ensure you have added the custom repository - ```https://github.com/pasleto/hass-addons```
 3. Find the "Roomba rest980 API" add-on and click on it.
-4. Click on the "INSTALL" button - this will install a build the image locally.
+4. Click on the "INSTALL" button - this will install and build the image locally.
 
 ## How to use
 

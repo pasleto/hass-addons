@@ -1,0 +1,43 @@
+{
+  "name": "network_notepad",
+  "version": "1.0.0",
+  "description": "Network Notepad",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "pretest": "npm install"
+  },
+  "keywords": [
+    "hassio",
+    "addon",
+    "network",
+    "notepad",
+    "pasleto"
+  ],
+  "author": {
+    "name": "Tomáš Pásler",
+    "email": "tomas.pasler@gmail.com",
+    "url": "https://github.com/pasleto"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^2.0.1",
+    "cookie-parser": "^1.4.3",
+    "debug": "^3.1.0",
+    "express": "^4.17.1",
+    "jsonfile": "^4.0.0",
+    "morgan": "^1.7.0",
+    "mysql": "^2.18.1",
+    "orm": "^5.0.5",
+    "ping": "^0.2.2"
+  },
+  "devDependencies": {
+    "semistandard": "^9.1.0",
+    "eslint": "^4.18.2",
+    "eslint-config-standard": "^6.2.0",
+    "eslint-config-semistandard": "^7.0.0",
+    "eslint-plugin-promise": "^3.0.0",
+    "eslint-plugin-standard": "^2.0.1"
+  }
+}
