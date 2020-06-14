@@ -1,11 +1,12 @@
 {
   "name": "Network Notepad",
-  "version": "2020061402",
+  "version": "2020061403",
   "slug": "natwork_notepad",
   "description": "Network Notepad",
   "arch": [ "amd64", "armv7" ],
   "url": "https://github.com/pasleto/hass-addons/network_notepad",
   "startup": "application",
+  "webui": "http://[HOST]:[PORT:3001]/",
   "ingress": true,
   "panel_icon": "mdi:table-network",
   "boot": "auto",
