@@ -40,7 +40,6 @@ MariaDB configuration:
 Network Notepad Configuration:
 ```
     DATABASE_URL: <hassio_ip>,            // default - core-mariadb
-    DATABASE_PORT: <port>,                // default - 3306
     DATABASE_USER: <user>,                // default - network_notepad
     DATABASE_PASSWORD: <password>,        // default - network_notepad
     DATABASE_NAME: <database>             // default - network_notepad
