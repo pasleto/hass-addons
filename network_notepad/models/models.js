@@ -8,7 +8,7 @@ module.exports = function (db, cb) {
     end_ip: { type: 'text', size: 20 },
     broadcast_ip: { type: 'text', size: 20 },
     network_mask: { type: 'text', size: 20 },
-    description: { type: 'text', size: 100 }
+    description: { type: 'text', size: 150 }
   }, {
     methods: {
       getID: function () {
