@@ -26,3 +26,6 @@
 
 ### 2020061408
 - Updated frontend
+
+### 2020061409
+- Updated frontend to version 2.0
