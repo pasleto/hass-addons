@@ -1,6 +1,6 @@
 {
   "name": "Network Notepad",
-  "version": "2020061403",
+  "version": "2020061404",
   "slug": "natwork_notepad",
   "description": "Network Notepad",
   "arch": [ "amd64", "armv7" ],
@@ -8,13 +8,15 @@
   "startup": "application",
   "webui": "http://[HOST]:[PORT:3001]/",
   "boot": "auto",
-  "legacy": true,
   "ports": {
     "3001/tcp": 3001
   },
+  "ports_description": {
+    "3001/tcp": "Web interface"
+  },
   "map": [ "config:rw" ],
   "options": {
-    "DATABASE_URL": "localhost",
+    "DATABASE_URL": "hassio.local",
     "DATABASE_PORT": 3306,
     "DATABASE_USER": "network_notepad",
     "DATABASE_PASSWORD": "network_notepad",

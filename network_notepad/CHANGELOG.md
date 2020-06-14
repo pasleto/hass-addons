@@ -11,3 +11,6 @@
 
 ### 2020061403
 - App working as expected, but ingress and WebUI button not working
+
+### 2020061404
+- App working as expected
