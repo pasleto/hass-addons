@@ -7,8 +7,6 @@
   "url": "https://github.com/pasleto/hass-addons/network_notepad",
   "startup": "application",
   "webui": "http://[HOST]:[PORT:3001]/",
-  "ingress": true,
-  "panel_icon": "mdi:table-network",
   "boot": "auto",
   "legacy": true,
   "ports": {
