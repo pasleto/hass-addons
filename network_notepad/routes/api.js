@@ -12,6 +12,7 @@ var dbOpts = {
   user: process.env.DATABASE_USER || config.database_user,
   password: process.env.DATABASE_PASSWORD || config.database_password,
   protocol: 'mysql',
+  port: process.env.DATABASE_PORT || config.database_port,
   query: {pool: false}
 };
 

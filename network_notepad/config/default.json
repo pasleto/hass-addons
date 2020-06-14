@@ -1,6 +1,7 @@
 {
   "port": 3001,
   "database_url": "core-mariadb",
+  "database_port": 3306,
   "database_user": "network_notepad",
   "database_password": "network_notepad",
   "database_name": "network_notepad"
